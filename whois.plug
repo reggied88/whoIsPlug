@@ -1,0 +1,9 @@
+[Core]
+Name = WhoIsDomain
+Module = who_is_domain
+
+[Python]
+Version = 3
+
+[Documentation]
+Description = Plugin for Errbot that gives the whois info for domain 
