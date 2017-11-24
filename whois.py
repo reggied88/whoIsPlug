@@ -8,4 +8,4 @@ class WhoIsDomain(BotPlugin):
     @botcmd
     def whois(self, msg, args):
         """Say whats up to the world"""
-        return Popen(['whois'] + args.split, stdout=PIPE, STDOUT)
+        return Popen(['whois'] + args.split, stdout=PIPE, STDOUT).communicate()
